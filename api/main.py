@@ -5,7 +5,7 @@ app = FastAPI()
 
 @app.get("/")
 def read_root():
-    return {"message": "Hello, world!"}
+    return {"message": "Hello, world! pog"}
 
 @app.post("/api/data")
 def receive_data(data: dict):
