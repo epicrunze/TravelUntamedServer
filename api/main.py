@@ -10,3 +10,7 @@ def read_root():
 @app.post("/api/data")
 def receive_data(data: dict):
     return {"received": data}
+
+@app.get("/api/test")
+def receive_data():
+    return {"message": "Hello, world! pog"}
